@@ -1,4 +1,4 @@
-# AsyncFlow Library #
+# Asyncro Library #
 
 ## What is this? ##
 Simple async module based on threading
@@ -7,7 +7,7 @@ Simple async module based on threading
 The module provides you an easy way to create an async function without using default methods:
 
     
-    @asyncflow.asynchronous
+    @asyncro.asynchronous
     def some_function(arr):
         time.sleep(1)
         
@@ -36,7 +36,7 @@ Just use the decorator.
 Using the library is as simple and convenient as possible:
 
 Let's import it first:
-First, import everything from the library (use the `import asyncflow` construct).
+First, import everything from the library (use the `import asyncro` construct).
 
 The `wait` function is used to wait until an asynchronous function completes and returns its result.
 It will block the current thread, or, if it is in an asynchronous function, pause it, waiting for the result.
